@@ -1,5 +1,4 @@
-# Gemz
-Long description (copy-paste for README or longer repo description) Gemz is an experimental toolkit for packaging driver bundles (Wi‑Fi, audio) and producing safe, versioned installer artifacts for Intel-based Macs (T1 models). Gemz focuses on Broadcom Wi‑Fi and common audio codecs, and provides a developer-friendly CLI to build driver packages, validate manifests, simulate flashing, and create local installer artifacts that represent a partition or USB drive (non-destructive).
+ Gemz is an experimental toolkit for packaging driver bundles (Wi‑Fi, audio) and producing safe, versioned installer artifacts for Intel-based Macs (T1 models). Gemz focuses on Broadcom Wi‑Fi and common audio codecs, and provides a developer-friendly CLI to build driver packages, validate manifests, simulate flashing, and create local installer artifacts that represent a partition or USB drive (non-destructive).
 
 Features
 
