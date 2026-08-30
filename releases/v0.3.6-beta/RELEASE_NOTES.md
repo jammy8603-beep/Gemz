@@ -1,0 +1,18 @@
+# Gemz v0.3.6-beta
+
+This is a patch/pre-release for v0.3.6 providing important patching updates and including the installer, uninstaller, and AutoPkg assets.
+
+## What’s included
+
+- Installer package: Installer.pkg — updated for patching and compatibility
+- Uninstaller package: Uninstaller.pkg — removes installed components cleanly
+- AutoPkg recipe / assets: Gemz.recipe — integrate with AutoPkg flows
+- Misc: small compatibility and patch fixes for macOS packaging and deployment
+
+## Notes for users
+
+- This is a beta (pre-release) intended for patching workflows. Please test in a staging environment before wide deployment.
+- Installation: run `Installer.pkg` with elevated privileges. To fully remove, run `Uninstaller.pkg`.
+- AutoPkg: import the provided AutoPkg recipe into your AutoPkg repository to automate packaging.
+
+If you want a detailed changelog, provide the commit range or let me generate one from the repo history.
