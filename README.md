@@ -9,10 +9,5 @@ Support scaffolding for Broadcom Wi‑Fi and common audio codecs; add your own h
 “Powered by AI” branding and developer-focused tooling, not device-level installers
 Important legal & safety notice Gemz does not provide macOS installers or instructions to bypass firmware/security protections (T2/secure-boot, etc.). Use only on hardware you legally own. Gemz bundles metadata and links to upstream sources; proprietary binaries must be supplied by the user and only redistributed with permission.
 
-Quick usage examples
 
-Pack a manifest: python -m gemz pack examples/example-manifest.yaml --out bundles/packages/gemz-package.json
-Validate a package: python -m gemz validate --package bundles/packages/gemz-package.json
-Simulate a flash (dry-run): python -m gemz simulate-flash --package bundles/packages/gemz-package.json --target examples/example-manifest.yaml
-Create a simulated installer folder: python -m gemz make-installer --package bundles/packages/gemz-package.json --output-dir ./simulated-usb
 
